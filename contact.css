@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+}
+.contact{
+      background-image: url(NUAGE.jpeg);
+    background-size: cover;
+     display: flex;
+    justify-content: center;
+    gap:15%;
+     margin-top:10%;
+}
+.carte iframe{
+
+    border-radius: 10%;
+
+}
+.reseau ul{
+    list-style: none;
+}
+.reseau ul li img{
+    width: 150px;
+    height: 125px;
+    border-radius: 15%;
+}
+.retour a img{
+    width: 100px;
+    height: 100px;
+    border-radius:100%;
+    background-color: black;
+    margin-left:90%;
+}
+header{
+    position: fixed;
+    top:0;
+     background-color: black;
+     border-radius:35%;
+     width: 100%;
+}
+.NUM{
+    background-image: url(NUAGE.jpeg);
+}

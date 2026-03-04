@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ .acceuil{
+    background-image:url(NUAGE.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:15%;
+    margin-top:5%;
+}
+.text ul {
+    list-style: none;
+}
+.text{
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.toff img{
+    width: 650px;
+    height: 600px;
+    border-radius: 15%;
+    margin-left: 25%;
+}
+.retour a img{
+    width: 100px;
+    height: 100px;
+    border-radius:100%;
+    background-color: black;
+    margin-left:94%;
+}
+header{
+    position: fixed;
+    top:0;
+     background-color: black;
+     border-radius:35%;
+     width:100%;
+}

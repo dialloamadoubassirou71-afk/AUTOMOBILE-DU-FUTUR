@@ -1,0 +1,60 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color:white;
+}
+.voiture{
+display: flex;
+justify-content: center;
+gap:90px;
+ background-image: url(WhatsApp\ Image\ 2026-02-23\ at\ 02.27.25.jpeg);
+    color: white;
+}
+img{
+  width:400px;
+  height:400px;
+  border-radius:20px;
+}
+.BMW{
+border: solid 3px;
+border-radius: 16px;
+font-size: 25px;
+ transition: 0.3s;
+}
+
+.AUDI{
+border-radius: 16px;
+border: solid 3px;  
+font-size: 25px;                         
+ transition: 0.3s;
+}
+.MERCEDES{
+ border-radius: 16px;
+border: solid 3px;  
+font-size: 25px;
+ transition: 0.3s;
+}
+.consulter{
+ border-radius: 16px;
+border: solid 3px;
+}
+.retour a img{
+    width: 100px;
+    height: 100px;
+    border-radius:100%;
+    background-color:white;
+    margin-left:90%;
+}
+.AUDI:hover{
+    transform: scale(1.1);
+}
+.MERCEDES:hover{
+    transform: scale(1.1);
+}
+.BMW:hover:hover{
+    transform: scale(1.1);
+}
+
+
+
+

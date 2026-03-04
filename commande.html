@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>commande</title> <link rel="stylesheet" href="commande.css">
+</head>
+<body>
+<h1><u><b style="background-color: black;position: fixed;top: 0%;margin-left:35%;">FORMUMAIRE DE PAYEMEMENT</b></u></h1>
+    <fieldset>
+        <form action="7">
+           <div>
+             <label for="non">NOM</label>
+            <input type="text" name="NOM" id="NOM" placeholder="NOM" required>
+           </div>
+            <br>
+           <div>
+             <label for="prenom">PRENOM</label>
+            <input type="text" name="PRENOM" id="PRENOM" placeholder="¨PRENOM" required>
+           </div>
+            <br>
+            <div><br>
+           <div>
+             <label for="NIN">NIP</label>
+            <input type="number"name="NIP" id="NIP" placeholder="num permis" required>
+           </div>
+            <br>
+            <div>
+                <label for="boite">TYPE DE BOITE:</label required> <br>
+                MANUEL<input type="checkbox" name="BOITE" id="BOITE">
+                AUTOMATIQUE<input type="checkbox" name="BOITE" id="BOITE">
+            </div> <br>
+            <div>
+                <select name="PAYEMENT" id="PAYEMENT" required>
+                    <option value=""><i>PAYEMENT</i></option> 
+                    <option value="">MENSUELLE</option>
+                    <option value="">SEMESTRIELLE</option>
+                    <option value="">ANNUELLE</option>
+                    <option value="">CASH</option>
+                </select>
+            </div> <br>
+            <div> 
+                <select name="MARQUE" id="MARQUE" required>
+                    <option value=""><i>marque</i></option>
+                    <option value=""><i>BMW</i></option>
+                    <option value=""><i>AUDI</i></option>
+                    <option value=""><i>MERCEDES</i></option>
+                </select>
+            </div> <br>
+            <div>
+            <label for="serie">SERIE</label>
+            <input type="text" name="serie" id="serie" placeholder="X6" required>
+            </div> <br>
+            <div>
+                <label for="couleur">COULEUR</label>
+                <input type="color" name="COLOR" id="COLOR">
+            </div> <br>
+             <div>
+                <u><b>TYPE DE CARBURANT:</b></u> <br>
+                <label for="typedecarburant"></label>
+               Essence <input type="radio" name="CARBURANT" id="typedecarburant" required>
+               Diesel <input type="radio" name="CARBURANT" id="typedecarburant" required>
+                Hybride <input type="radio" name="CARBURANT" id="typedecarburant" required>
+                 Electrique <input type="radio" name="CARBURANT" id="typedecarburant" required>
+            </div> <br>
+            <div>
+               <u><b>Sécurité& Equipement</b></u> <br>
+               <label for="typedecarburant"></label>
+              Airbag <input type="radio" name="" id="" required>
+               Alarme<input type="radio" name="" id="" required>
+               Climatisation<input type="radio" name="" id="" required>
+               Caméra de recul<input type="radio" name="" id="" required>
+               RADAR 360<input type="radio" name="" id="" required>
+               Jante alliage<input type="radio" name="" id="" required>
+            </div> <br>
+            <div>
+                <label for="PRIX">PRIX:</label>
+                <input type="number" name="number" id="number" placeholder="11234789$" required>
+            </div> <br> 
+            <div class="wave">
+            <p><b><h1>PAYEMENT PAR WAVE DISPONIBLE</h1></b></p>
+                <a href=" https://pay.wave.com/m/M_sn_5XNbJyJcKF_u/c/sn/" target="_blank"> <img src="wave.png" alt=""></a>
+            </div>
+            <div>
+                <button type="submit" class="button">CONFIRMER</button>
+                <button type="reset" class="button">ANNULER</button>
+            </div>
+
+        </form>
+    </fieldset>
+    <div class="retour">
+       <a href="gualerie.html"> <img src="BMW/bouton-retour.png" alt=""></a>
+    </div>
+</body>
+</html>

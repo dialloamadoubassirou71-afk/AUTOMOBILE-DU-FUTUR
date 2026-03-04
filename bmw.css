@@ -1,0 +1,58 @@
+body{   
+    margin: 0;
+    padding: 0;
+    background-image: url(NUAGE.jpeg);
+    background-size: cover; 
+    color:white;
+    background-color: black;
+}
+
+header input{
+    border: 5px solid white;
+    border-width: 20px;
+    border-radius:15%;
+    margin-left:1%;
+    margin-bottom:1000%;
+}
+
+img{
+    width:250PX;
+    height: 200px;
+    border-radius :15px;
+    ;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10%;
+    margin-top: 20%;
+     margin-left: 4%;
+
+}
+main div{
+border: solid 2px;
+width: 250px;
+border-radius:5%
+}
+
+button{
+    border: solid 1px;
+    border-radius: 15%            ;
+}
+header{
+    position: fixed;
+    top:0;
+     background-color: black;
+     border-radius:10%;
+     margin-left: 5%;
+     font-size: 15Px;
+     width:100%;
+     height:35%;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    border-radius:100%;
+    margin-left:85%;
+}
+

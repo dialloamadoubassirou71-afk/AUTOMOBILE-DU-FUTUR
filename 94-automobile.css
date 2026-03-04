@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+    font: size 10px;
+    color:white;
+}
+header{
+     background-image:url(APJ.jpeg);
+      background-size: cover; 
+     height: 700px;
+}
+.tete{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+    width: 100%;
+
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+    border-radius:90%;
+    
+}
+li a{
+    color: white; 
+}
+.puce{
+     list-style: none;
+}
+li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10%;
+}
+li{
+    text-decoration:none;
+}
+.recherche input{
+    border: 5px solid white;
+    border-width: 15px;
+    border-radius:15%;
+}
+.gauche{
+    display: flex;
+  justify-content: center;
+    align-items: center;
+    gap: 20%;    
+}
+.nav ul{
+        display: flex;
+  justify-content: center;
+    gap: 20%;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.p1{
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p2{
+    font-size: 43px;
+}
+.commande{
+    margin-left: 21%;
+}
+.p3 button{
+    border: 10px solid white;
+    border-radius:15%;
+}
+
+
